@@ -1,0 +1,10 @@
+doc
+.git
+.gitignore
+.gitmodules
+update-system-apps.sh
+src/ext
+src/server/emul
+src/server/test
+src/server/tests/lib
+src/server/tests/webida-0.3.js

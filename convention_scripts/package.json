@@ -1,0 +1,12 @@
+{
+    "name": "Convention",
+    "version": "1.0.0",
+    "description": "Convention Scripts",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.11.1",
+        "jshint-stylish": "^1.0.1"
+    }
+}
