@@ -24,6 +24,9 @@ module.exports = function (grunt) {
             grunt.log.debug('file name : ' + item);
             var trimed = item.trim();
             if (endsWith(trimed, '.js')) {
+                if (trimed === 'Gruntfile.js') {
+                    trimed = 'Gruntfile1.js'; 
+                }
                 newList.push(trimed);
                 grunt.log.debug('file name(js): ' + trimed);
             }
